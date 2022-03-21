@@ -4,6 +4,19 @@
  **********************************************************************/
 interface tb_ifc (input logic clk);
  // timeunit 1ns/1ns;
+ wire [7:0] data;
+ clocking cb @(posedge clk);
+    inout load_en;
+    inout reset_n;
+    inout opcode;
+    inout operand_a;
+    inout operand_b;
+    inout write_pointer;
+    inout read_pointer;
+    inout instruction_word;
+ endclocking;
+ modport  Test (clocking cb); 
+ 
 
   // user-defined types are defined in instr_register_pkg.sv
   import instr_register_pkg::*;
