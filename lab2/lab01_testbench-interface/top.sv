@@ -37,7 +37,7 @@ module top;
 
   // instantiate design and connect ports
   instr_register dut (
-    .clk              ( lab2_if.clk),
+    .clk              (lab2_if.clk),
     .load_en          (lab2_if.load_en),
     .reset_n          (lab2_if.reset_n),
     .operand_a        (lab2_if.operand_a),
@@ -45,7 +45,8 @@ module top;
     .opcode           (lab2_if.opcode),
     .write_pointer    (lab2_if.write_pointer),
     .read_pointer     (lab2_if.read_pointer),
-    .instruction_word (lab2_if.instruction_word)
+    .instruction_word (lab2_if.instruction_word),
+    .result           (lab2_if.result)       
    );
 
   // clock oscillators
