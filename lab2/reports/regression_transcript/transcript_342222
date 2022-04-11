@@ -1,0 +1,133 @@
+# 1
+# Model Technology ModelSim SE vlog 6.6d Compiler 2010.11 Nov  1 2010
+# -- Compiling package instr_register_pkg
+# -- Compiling module instr_register
+# -- Importing package instr_register_pkg
+# -- Compiling package instr_register_test_sv_unit
+# -- Importing package instr_register_pkg
+# -- Compiling module instr_register_test
+# -- Compiling interface tb_ifc
+# -- Compiling package tb_ifc_sv_unit
+# -- Importing package instr_register_pkg
+# -- Compiling interface tb_ifc
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim +notimingchecks +nowarnTSCALE -sva -nocoverage -quiet -novopt top 
+# Refreshing C:\Users\jdani\Desktop\lab2\sim\work.instr_register_pkg
+# Refreshing C:\Users\jdani\Desktop\lab2\sim\work.top
+# Refreshing C:\Users\jdani\Desktop\lab2\sim\work.tb_ifc_sv_unit
+# Refreshing C:\Users\jdani\Desktop\lab2\sim\work.tb_ifc
+# Refreshing C:\Users\jdani\Desktop\lab2\sim\work.instr_register_test_sv_unit
+# Refreshing C:\Users\jdani\Desktop\lab2\sim\work.instr_register_test
+# Refreshing C:\Users\jdani\Desktop\lab2\sim\work.instr_register
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_class.svh(82): Clocking block output lab2_if.cb.opcode is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_class.svh(83): Clocking block output lab2_if.cb.operand_a is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_class.svh(84): Clocking block output lab2_if.cb.operand_b is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_class.svh(81): Clocking block output lab2_if.cb.write_pointer is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_class.svh(88): Clocking block output lab2_if.cb.read_pointer is not legal in this
+# or another expression.
+#         Region: /top/test
+# 
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+#  First display
+# 
+# Reseting the instruction register...
+# 
+# Writing values to register stack...
+# Writing to register location 0: 
+#   lab2_if.cb.opcode = 1 (PASSA)
+#   lab2_if.cb.operand_a = 11
+#   lab2_if.cb.operand_b = 6
+# 
+# Writing to register location 1: 
+#   lab2_if.cb.opcode = 3 (ADD)
+#   lab2_if.cb.operand_a = 1
+#   lab2_if.cb.operand_b = 4
+# 
+# Writing to register location 2: 
+#   lab2_if.cb.opcode = 2 (PASSB)
+#   lab2_if.cb.operand_a = 14
+#   lab2_if.cb.operand_b = 5
+# 
+# Writing to register location 3: 
+#   lab2_if.cb.opcode = 3 (ADD)
+#   lab2_if.cb.operand_a = 15
+#   lab2_if.cb.operand_b = 1
+# 
+# Writing to register location 4: 
+#   lab2_if.cb.opcode = 0 (ZERO)
+#   lab2_if.cb.operand_a = 13
+#   lab2_if.cb.operand_b = 7
+# 
+# Writing to register location 5: 
+#   lab2_if.cb.opcode = 3 (ADD)
+#   lab2_if.cb.operand_a = 10
+#   lab2_if.cb.operand_b = 4
+# 
+# Writing to register location 6: 
+#   lab2_if.cb.opcode = 1 (PASSA)
+#   lab2_if.cb.operand_a = 11
+#   lab2_if.cb.operand_b = 8
+# 
+# Writing to register location 7: 
+#   lab2_if.cb.opcode = 1 (PASSA)
+#   lab2_if.cb.operand_a = 13
+#   lab2_if.cb.operand_b = 13
+# 
+# Writing to register location 8: 
+#   lab2_if.cb.opcode = 2 (PASSB)
+#   lab2_if.cb.operand_a = 8
+#   lab2_if.cb.operand_b = 10
+# 
+# Writing to register location 9: 
+#   lab2_if.cb.opcode = 5 (MULT)
+#   lab2_if.cb.operand_a = 3
+#   lab2_if.cb.operand_b = 4
+# 
+# 
+# Reading back the same register locations written...
+# Read from register location 2: 
+#   lab2_if.cb.opcode = 2 (PASSB)
+#   lab2_if.cb.operand_a = 14
+#   lab2_if.cb.operand_b = 5
+# 
+#   result    = 5
+# 
+# Read from register location 1: 
+#   lab2_if.cb.opcode = 3 (ADD)
+#   lab2_if.cb.operand_a = 1
+#   lab2_if.cb.operand_b = 4
+# 
+#   result    = 5
+# 
+# Read from register location 0: 
+#   lab2_if.cb.opcode = 1 (PASSA)
+#   lab2_if.cb.operand_a = 11
+#   lab2_if.cb.operand_b = 6
+# 
+#   result    = 11
+# 
+# 
+# ***********************************************************
+# ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+# ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+# ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+# ***********************************************************
+# 
+# ** Note: $finish    : ../lab01_testbench-interface/instr_register_class.svh(63)
+#    Time: 150 ns  Iteration: 2  Instance: /top/test

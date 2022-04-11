@@ -1,0 +1,16 @@
+# 1
+# ** Error: (vlog-7) Failed to open -f file "sources.txt" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/modeltech_6.6d/win32/vlog failed.
+# Error in macro ./run.do line 20
+# C:/modeltech_6.6d/win32/vlog failed.
+#     while executing
+# "vlog -sv -timescale "1ns/1ns" -work work       -f sources.txt"
+#     invoked from within
+# "if {$compile_on || [batch_mode] == 0} {
+#   vlib work
+#   vlog -sv -timescale "1ns/1ns" -work work       -f sources.txt
+# }"
+# 
+# <EOF> 
+# Break key hit 

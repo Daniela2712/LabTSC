@@ -1,0 +1,28 @@
+# 1
+# Model Technology ModelSim SE vlog 6.6d Compiler 2010.11 Nov  1 2010
+# -- Compiling package instr_register_pkg
+# -- Compiling module instr_register
+# -- Importing package instr_register_pkg
+# ** Error: ../lab01_testbench-interface/instr_register_class.svh(5): near "10": syntax error, unexpected "INTEGER NUMBER", expecting "new"
+# ** Error: ../lab01_testbench-interface/instr_register_class.svh(30): Undefined variable: NUMBEROFTRANSACTION.
+# ** Error: ../lab01_testbench-interface/instr_register_class.svh(96): near "endclass": syntax error, unexpected "endclass"
+# ** Error: ../lab01_testbench-interface/instr_register_test.sv(24): near "(": syntax error, unexpected '(', expecting "IDENTIFIER" or "TYPE_IDENTIFIER"
+# -- Compiling interface tb_ifc
+# ** Error: ../lab01_testbench-interface/tb_ifc.sv(20): (vlog-2143) Unable to find 'opcode' in scope .
+# ** Error: ../lab01_testbench-interface/tb_ifc.sv(21): (vlog-2143) Unable to find 'operand_a' in scope .
+# ** Error: ../lab01_testbench-interface/tb_ifc.sv(22): (vlog-2143) Unable to find 'operand_b' in scope .
+# ** Error: ../lab01_testbench-interface/tb_ifc.sv(23): (vlog-2143) Unable to find 'write_pointer' in scope .
+# ** Error: ../lab01_testbench-interface/tb_ifc.sv(24): (vlog-2143) Unable to find 'read_pointer' in scope .
+# ** Error: ../lab01_testbench-interface/tb_ifc.sv(25): (vlog-2143) Unable to find 'result' in scope .
+# ** Error: ../lab01_testbench-interface/tb_ifc.sv(26): (vlog-2143) Unable to find 'instruction_word' in scope .
+# ** Error: ../lab01_testbench-interface/instr_register_test.sv(68): near "top": syntax error, unexpected "end of source code"
+# ** Error: C:/modeltech_6.6d/win32/vlog failed.
+# Error in macro ./run.do line 20
+# C:/modeltech_6.6d/win32/vlog failed.
+#     while executing
+# "vlog -sv -timescale "1ns/1ns" -work work       -f sources.txt"
+#     invoked from within
+# "if {$compile_on || [batch_mode] == 0} {
+#   vlib work
+#   vlog -sv -timescale "1ns/1ns" -work work       -f sources.txt
+# }"

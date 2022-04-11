@@ -46,7 +46,7 @@ module top;
     .write_pointer    (lab2_if.write_pointer),
     .read_pointer     (lab2_if.read_pointer),
     .instruction_word (lab2_if.instruction_word),
-    .result           (lab2_if.result)       
+	  .result           (lab2_if.result)  
    );
 
   // clock oscillators

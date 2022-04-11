@@ -13,6 +13,7 @@ import instr_register_pkg::*;  // user-defined types are defined in instr_regist
  input  logic          reset_n,
  input  operand_t      operand_a,
  input  operand_t      operand_b,
+ input  operand_t      result,
  input  opcode_t       opcode,
  input  address_t      write_pointer,
  input  address_t      read_pointer,
@@ -39,8 +40,6 @@ import instr_register_pkg::*;  // user-defined types are defined in instr_regist
         MOD   : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, $signed(operand_a % operand_b)};
       default : iw_reg[write_pointer] = '{opcode, operand_a, operand_b, 'b0};
     endcase
-
-
 
     end
 

@@ -1,0 +1,91 @@
+ 
+ ***********************************************************
+ ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+ ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+ ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+ ***********************************************************
+  First display
+ 
+ Reseting the instruction register...
+ 
+ Writing values to register stack...
+ Writing to register location 0: 
+   lab2_if.cb.opcode = 1 (PASSA)
+   lab2_if.cb.operand_a = 4
+   lab2_if.cb.operand_b = 1
+ 
+ Writing to register location 1: 
+   lab2_if.cb.opcode = 5 (MULT)
+   lab2_if.cb.operand_a = -13
+   lab2_if.cb.operand_b = 13
+ 
+ Writing to register location 2: 
+   lab2_if.cb.opcode = 1 (PASSA)
+   lab2_if.cb.operand_a = -11
+   lab2_if.cb.operand_b = 2
+ 
+ Writing to register location 3: 
+   lab2_if.cb.opcode = 5 (MULT)
+   lab2_if.cb.operand_a = 13
+   lab2_if.cb.operand_b = 6
+ 
+ Writing to register location 4: 
+   lab2_if.cb.opcode = 1 (PASSA)
+   lab2_if.cb.operand_a = 13
+   lab2_if.cb.operand_b = 12
+ 
+ Writing to register location 5: 
+   lab2_if.cb.opcode = 2 (PASSB)
+   lab2_if.cb.operand_a = -10
+   lab2_if.cb.operand_b = 5
+ 
+ Writing to register location 6: 
+   lab2_if.cb.opcode = 2 (PASSB)
+   lab2_if.cb.operand_a = 5
+   lab2_if.cb.operand_b = 7
+ 
+ Writing to register location 7: 
+   lab2_if.cb.opcode = 6 (DIV)
+   lab2_if.cb.operand_a = 15
+   lab2_if.cb.operand_b = 2
+ 
+ Writing to register location 8: 
+   lab2_if.cb.opcode = 4 (SUB)
+   lab2_if.cb.operand_a = -8
+   lab2_if.cb.operand_b = 5
+ 
+ Writing to register location 9: 
+   lab2_if.cb.opcode = 5 (MULT)
+   lab2_if.cb.operand_a = -3
+   lab2_if.cb.operand_b = 13
+ 
+ 
+ Reading back the same register locations written...
+ Read from register location 2: 
+   lab2_if.cb.opcode = 1 (PASSA)
+   lab2_if.cb.operand_a = -11
+   lab2_if.cb.operand_b = 2
+ 
+   result    = -11
+ 
+ Read from register location 1: 
+   lab2_if.cb.opcode = 5 (MULT)
+   lab2_if.cb.operand_a = -13
+   lab2_if.cb.operand_b = 13
+ 
+   result    = -169
+ 
+ Read from register location 0: 
+   lab2_if.cb.opcode = 1 (PASSA)
+   lab2_if.cb.operand_a = 4
+   lab2_if.cb.operand_b = 1
+ 
+   result    = 4
+ 
+ 
+ ***********************************************************
+ ***  THIS IS NOT A SELF-CHECKING TESTBENCH (YET).  YOU  ***
+ ***  NEED TO VISUALLY VERIFY THAT THE OUTPUT VALUES     ***
+ ***  MATCH THE INPUT VALUES FOR EACH REGISTER LOCATION  ***
+ ***********************************************************
+ 

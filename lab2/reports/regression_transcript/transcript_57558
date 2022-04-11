@@ -1,0 +1,39 @@
+# 1
+# Model Technology ModelSim SE vlog 6.6d Compiler 2010.11 Nov  1 2010
+# -- Compiling package instr_register_pkg
+# -- Compiling module instr_register
+# -- Importing package instr_register_pkg
+# -- Compiling package instr_register_test_sv_unit
+# -- Importing package instr_register_pkg
+# -- Compiling module instr_register_test
+# -- Compiling interface tb_ifc
+# -- Compiling package tb_ifc_sv_unit
+# -- Importing package instr_register_pkg
+# -- Compiling interface tb_ifc
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vsim +notimingchecks +nowarnTSCALE -sva -nocoverage -quiet -novopt top 
+# Refreshing C:\Users\jdani\Desktop\lab2\tools\work.instr_register_pkg
+# Refreshing C:\Users\jdani\Desktop\lab2\tools\work.top
+# Refreshing C:\Users\jdani\Desktop\lab2\tools\work.tb_ifc_sv_unit
+# Refreshing C:\Users\jdani\Desktop\lab2\tools\work.tb_ifc
+# Refreshing C:\Users\jdani\Desktop\lab2\tools\work.instr_register_test_sv_unit
+# Refreshing C:\Users\jdani\Desktop\lab2\tools\work.instr_register_test
+# Refreshing C:\Users\jdani\Desktop\lab2\tools\work.instr_register
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_class.svh(84): Clocking block output lab2_if.cb.opcode is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_class.svh(85): Clocking block output lab2_if.cb.operand_a is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_class.svh(86): Clocking block output lab2_if.cb.operand_b is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_class.svh(83): Clocking block output lab2_if.cb.write_pointer is not legal in this
+# or another expression.
+#         Region: /top/test
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_class.svh(90): Clocking block output lab2_if.cb.read_pointer is not legal in this
+# or another expression.
+#         Region: /top/test
