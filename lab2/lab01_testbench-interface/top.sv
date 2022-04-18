@@ -34,7 +34,7 @@ module top;
     // .instruction_word     (lab2_if.instruction_word)
     lab2_if
    );
-
+  
   // instantiate design and connect ports
   instr_register dut (
     .clk              (lab2_if.clk),

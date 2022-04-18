@@ -22,6 +22,7 @@ include "instr_register_class.svh";
   first_test fs;
   fs=new(lab2_if);
   fs.run();
+ 
   end  
 
 endmodule: instr_register_test
